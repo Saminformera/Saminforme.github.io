@@ -114,22 +114,3 @@ BEGIN PS4 Controller Styling
 }
 
 END PS4 Controller Styling
-
-BEGIN PS4 White Controller Styling
-.controller.ds4.white {
-    background-image url(manette3.png);
-}
-
-.ds4.white .bumper {
-    background-image url(bumper.png);
-}
-
-.ds4.white .stick {
-    background-image url(sticks.png);
-}
-
-.ds4.white .face {
-    background-image url(dpad.png);
-}
-
-END PS4 White Controller Styling
