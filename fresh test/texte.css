@@ -10,7 +10,7 @@ BEGIN PS4 Controller Styling
 .ds4 .bumper {
     width 99px;
     height 23px;
-    background url(bumper.png) no-repeat;
+    background url(bumper.svg) no-repeat;
     opacity 0;
 }
 
@@ -37,12 +37,9 @@ BEGIN PS4 Controller Styling
     transform rotateY(180deg);
 }
 
-
-}
-
 .ds4 .stick {
     position absolute;
-    background url(sticks.png);
+    background url(sticks.svg);
     height 94px;
     width 94px;
 }
@@ -66,7 +63,7 @@ BEGIN PS4 Controller Styling
 }
 
 .ds4 .face {
-    background url(dpad.png);
+    background url(dpad.svg);
     position absolute;
 }
 
@@ -112,5 +109,4 @@ BEGIN PS4 Controller Styling
 .ds4.half {
     margin-top -300px;
 }
-
 END PS4 Controller Styling
